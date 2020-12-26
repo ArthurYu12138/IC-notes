@@ -1,0 +1,43 @@
+IC notes
+
+1. Clock Divider
+	https://cloud.tencent.com/developer/article/1595148
+
+2. Clock Domain Crossing
+	https://www.cnblogs.com/lyc-seu/p/12441366.html
+	
+	FIFO code
+	https://blog.csdn.net/qq_34070723/article/details/102883240
+	
+3. Async Reset (Sync release)
+	T_recovery & T_removal & code
+	https://www.cnblogs.com/lyc-seu/p/12419839.html
+	
+4. Verilog details
+	Timescale
+	https://blog.csdn.net/super_haifeng/article/details/50110371#:~:text=%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9A%20timescale%E7%9A%84%E5%9F%BA%E7%A1%80%60timescale,%E6%97%B6%E9%97%B4%E5%8D%95%E4%BD%8D%E5%92%8C%E6%97%B6%E9%97%B4%E7%B2%BE%E5%BA%A6%E3%80%82&text=%E6%A0%BC%E5%BC%8F%E5%A6%82%E4%B8%8B%EF%BC%9A%20%60-,%E8%80%8C%E4%B8%94%EF%BC%8C%E6%97%B6%E9%97%B4%E7%B2%BE%E5%BA%A6%E4%B8%8D%E8%83%BD%E6%AF%94%E6%97%B6%E9%97%B4%E5%8D%95%E4%BD%8D%E8%BF%98%E8%A6%81%E5%A4%A7,%E6%9C%80%E5%A4%9A%E4%B8%A4%E5%88%99%E4%B8%80%E6%A0%B7%E5%A4%A7%E3%80%82
+	
+	Blocking & non-blocking assignment
+	https://blog.csdn.net/chief_cf/article/details/52373831?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+	
+	Incomplete statement (if/else, case)
+	https://blog.csdn.net/qq_41636459/article/details/82919543
+	
+	Synthesis
+	https://blog.csdn.net/wordwarwordwar/article/details/53717077
+	
+	Sensitive list(combinational logic)
+	https://blog.csdn.net/u014070258/article/details/99672289
+	
+	Keywords
+	https://blog.csdn.net/Xiaomo_haa/article/details/104182082?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control
+	
+5. STA and DTA
+	https://zhuanlan.zhihu.com/p/46057884
+	
+	False path
+	https://blog.csdn.net/fairy0905/article/details/83182820#:~:text=FALSE%20PATH%E5%B0%B1%E6%98%AF%E6%88%91%E4%BB%AC%E5%9C%A8,%E4%B8%8D%E5%90%8C%E6%97%B6%E9%92%9F%E5%9F%9F%E7%9A%84%E8%B7%AF%E5%BE%84%E3%80%82&text=%E4%B8%80%E4%BA%9B%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C%E4%B8%8D%E8%AE%BE%E7%BD%AE,%E8%B7%AF%E5%BE%84%E6%98%AF%E5%90%A6%E6%9C%89%E9%97%AE%E9%A2%98%E4%BA%86%E3%80%82
+	
+6. Race hazard
+	https://zhuanlan.zhihu.com/p/26115814
+	https://en.wikipedia.org/wiki/Race_condition#:~:text=A%20race%20condition%20or%20race,the%20possible%20behaviors%20is%20undesirable.
